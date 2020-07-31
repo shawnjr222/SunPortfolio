@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/shawnjr/static/css/main.7fe4daef.chunk.css",
-    "main.js": "/shawnjr/static/js/main.20cf70be.chunk.js",
-    "main.js.map": "/shawnjr/static/js/main.20cf70be.chunk.js.map",
-    "runtime-main.js": "/shawnjr/static/js/runtime-main.08b11906.js",
-    "runtime-main.js.map": "/shawnjr/static/js/runtime-main.08b11906.js.map",
-    "static/js/2.2494d31c.chunk.js": "/shawnjr/static/js/2.2494d31c.chunk.js",
-    "static/js/2.2494d31c.chunk.js.map": "/shawnjr/static/js/2.2494d31c.chunk.js.map",
-    "index.html": "/shawnjr/index.html",
-    "precache-manifest.d17e7387763569ac7d1f5d60526b5a24.js": "/shawnjr/precache-manifest.d17e7387763569ac7d1f5d60526b5a24.js",
-    "service-worker.js": "/shawnjr/service-worker.js",
-    "static/css/main.7fe4daef.chunk.css.map": "/shawnjr/static/css/main.7fe4daef.chunk.css.map",
-    "static/js/2.2494d31c.chunk.js.LICENSE.txt": "/shawnjr/static/js/2.2494d31c.chunk.js.LICENSE.txt",
-    "static/media/Water.css": "/shawnjr/static/media/122.07de53d5.gif",
-    "static/media/App.css": "/shawnjr/static/media/Avenir-Roman.3d77d56a.ttf"
+    "main.css": "/static/css/main.9933521d.chunk.css",
+    "main.js": "/static/js/main.a628ceeb.chunk.js",
+    "main.js.map": "/static/js/main.a628ceeb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.2494d31c.chunk.js": "/static/js/2.2494d31c.chunk.js",
+    "static/js/2.2494d31c.chunk.js.map": "/static/js/2.2494d31c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.40240cdbbf9d6392ba53d44d09979c93.js": "/precache-manifest.40240cdbbf9d6392ba53d44d09979c93.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9933521d.chunk.css.map": "/static/css/main.9933521d.chunk.css.map",
+    "static/js/2.2494d31c.chunk.js.LICENSE.txt": "/static/js/2.2494d31c.chunk.js.LICENSE.txt",
+    "static/media/Water.css": "/static/media/122.07de53d5.gif",
+    "static/media/App.css": "/static/media/Avenir-Roman.3d77d56a.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.08b11906.js",
+    "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.2494d31c.chunk.js",
-    "static/css/main.7fe4daef.chunk.css",
-    "static/js/main.20cf70be.chunk.js"
+    "static/css/main.9933521d.chunk.css",
+    "static/js/main.a628ceeb.chunk.js"
   ]
 }
