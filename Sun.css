@@ -1,0 +1,198 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.sunContainer{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0;
+    margin-top: 15%;
+    animation:  4s cubic-bezier(0.33, 1, 0.68, 1) slideIn;
+}
+
+.sunShape{
+    width: 27vw;
+    height: 27vw;
+    background: radial-gradient(circle, rgba(218,157,239,1) 0%, rgba(149,130,230,1) 100%);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index: 1;
+}
+.sunAllt{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+}
+.sunText{
+    line-height: 27vw;
+    height: max-content;
+    text-align: left;
+    color: white;
+    font-family: 'Avenir';
+    font-weight: normal;
+    font-size: 3vw;
+    width: max-content;
+    margin-left: 27vw;
+    margin-right: auto;
+    margin-top: -18vw;
+    position: absolute;
+    animation: 7s cubic-bezier(0.215, 0.610, 0.355, 1.000)mainText;
+}
+
+.sunLinks{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -9vw;
+    align-items: left;
+    justify-content: left;
+    animation: 7s cubic-bezier(0.215, 0.610, 0.355, 1.000)mainText;
+
+}
+.sunLink2{
+    text-align: left;
+    align-items: flex-start;
+    color: white;
+    font-family: 'Avenir';
+    font-weight: normal;
+    font-size: 1.33vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: flex-start;
+    text-decoration: none;
+    width: max-content;
+    height: max-content;
+}
+.sunLink1{
+    text-align: left;
+    align-items: flex-start;
+    color: white;
+    font-family: 'Avenir';
+    font-weight: normal;
+    font-size: 1.33vw;
+    margin-left: auto;
+    margin-right: 3vw;
+    position: relative;
+    align-items: flex-start;
+    text-decoration: none;
+    width: max-content;
+    height: max-content;
+    
+}
+.sunLink3{
+    text-align: left;
+    align-items: flex-start;
+    color: white;
+    font-family: 'Avenir';
+    font-weight: normal;
+    font-size: 1.33vw;
+    margin-left: 2.4vw;
+    margin-right: auto;
+    position: relative;
+    align-items: flex-start;
+    text-decoration: none;
+    width: max-content;
+    height: max-content;
+}
+.sunLinkText{
+}
+
+.sunLinks:hover{
+    
+}
+
+.sunLink1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    bottom: 0px;
+    left: 0;
+    background-color: #ffffff;
+    visibility: hidden;
+    transition: all 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  .sunLink1:hover::before {
+    visibility: visible;
+    width: 100%;
+  }
+
+  .sunLink2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    bottom: -2.4px;
+    left: 0;
+    background-color: #ffffff;
+    visibility: hidden;
+    transition: all 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  .sunLink2:hover::before {
+    visibility: visible;
+    width: 100%;
+  }
+
+
+  .sunLink3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    bottom: 0px;
+    left: 0;
+    background-color: #ffffff;
+    visibility: hidden;
+    transition: all 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  .sunLink3:hover::before {
+    visibility: visible;
+    width: 100%;
+  }
+  .wrap {
+    border-right: .3vw solid #fff;
+    color: #fff;
+    animation: caret 1s steps(1) infinite;
+    position: relative;
+  }
+   
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translatey(210%);
+    }
+    33% {
+      transform: translatey(210%);
+    }
+    100% {
+      transform: translatey(0);
+    }
+    }
+    @keyframes mainText {
+      0% {
+        opacity: 0%;
+      }
+      50% {
+        opacity: 0%;
+      }
+      100% {
+        opacity: 100%;
+      }
+  }
