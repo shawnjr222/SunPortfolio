@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/shawnjr/static/css/main.4deab8e7.chunk.css",
+    "main.js": "/shawnjr/static/js/main.20cf70be.chunk.js",
+    "main.js.map": "/shawnjr/static/js/main.20cf70be.chunk.js.map",
+    "runtime-main.js": "/shawnjr/static/js/runtime-main.08b11906.js",
+    "runtime-main.js.map": "/shawnjr/static/js/runtime-main.08b11906.js.map",
+    "static/js/2.2494d31c.chunk.js": "/shawnjr/static/js/2.2494d31c.chunk.js",
+    "static/js/2.2494d31c.chunk.js.map": "/shawnjr/static/js/2.2494d31c.chunk.js.map",
+    "index.html": "/shawnjr/index.html",
+    "precache-manifest.a627e7839f383dd12ed1297433fd6446.js": "/shawnjr/precache-manifest.a627e7839f383dd12ed1297433fd6446.js",
+    "service-worker.js": "/shawnjr/service-worker.js",
+    "static/css/main.4deab8e7.chunk.css.map": "/shawnjr/static/css/main.4deab8e7.chunk.css.map",
+    "static/js/2.2494d31c.chunk.js.LICENSE.txt": "/shawnjr/static/js/2.2494d31c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/shawnjr/static/media/Avenir-Roman.3d77d56a.ttf",
+    "static/media/Water.css": "/shawnjr/static/media/crop.0ac3054d.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08b11906.js",
+    "static/js/2.2494d31c.chunk.js",
+    "static/css/main.4deab8e7.chunk.css",
+    "static/js/main.20cf70be.chunk.js"
+  ]
+}
